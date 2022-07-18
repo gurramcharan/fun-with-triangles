@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+:root {
+    --primary-color: #1D4E89;
+    --secondary-color: #7dcfb6;
+    --skin-color: #d38124;
+}
+
+* {
+    font-family: 'Cinzel', serif;
+    background-color: #96daf1;
+
+}
+
+#index {
+    border: 50%;
+    margin: auto;
+
+}
+
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+#heading-formula{
+    text-align: center;
+}
+#index-nav {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    margin: 1rem 8rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: large;
+    border: 1px solid black;
+    border-radius: 1rem;
+
+}
+
+.link:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: larger;
+}
+
+.go-back-btn {
+    border: 1px solid black;
+    margin: 0.5rem;
+    margin-top: 400px;
+    width: fit-content;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: large;
+}
+
+.go-back-btn:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: large;
+}
+
+.input-boxes {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 4rem;
+    font-size: large;
+    background-color: rgb(205, 247, 247);
+}
+
+.label-div {
+    width: 50%;
+    margin: auto;
+}
+
+label {
+    font-size: larger;
+}
+
+.submit-btn {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    font-size: medium
+}
+
+.submit-btn:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+#output {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    font-size: larger;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 2rem;
+    margin: 0.5rem 11rem;
+}
