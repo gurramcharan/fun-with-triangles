@@ -135,7 +135,7 @@ label {
 .footer {
     padding: 2rem 1rem;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .footer .footer-header {
@@ -144,7 +144,7 @@ label {
 }
 
 .footer .link {
-    color: white;
+    color: black;
 }
 
 .link {
